@@ -1,0 +1,90 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#06216E">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="291dp"
+        android:layout_height="69dp"
+        android:layout_weight="1"
+        android:shadowColor="#E60F0F"
+        android:text="ღილაკი #1"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="#DF0303"
+        android:textColorHint="#ED0D0D"
+        android:textColorLink="#E31111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="236dp"
+        android:layout_height="69dp"
+        android:layout_weight="1"
+        android:text="ღილაკი #2"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ღილაკი #5"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ღილაკი #4"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ღილაკი #6"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="173dp"
+        android:layout_height="69dp"
+        android:text="ღილაკი #3"
+        android:backgroundTint="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="50dp"
+        android:layout_height="93dp"
+        android:text="ღილაკი #8"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="50dp"
+        android:layout_height="93dp"
+        android:text="ღილაკი #7"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="50dp"
+        android:layout_height="93dp"
+        android:text="ღილაკი #9"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="527dp" />
