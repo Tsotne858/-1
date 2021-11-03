@@ -10,14 +10,12 @@
         android:layout_width="291dp"
         android:layout_height="69dp"
         android:layout_weight="1"
-        android:shadowColor="#E60F0F"
-        android:text="ღილაკი #1"
         android:backgroundTint="@color/purple_500"
-        android:textColor="#DF0303"
-        android:textColorHint="#ED0D0D"
-        android:textColorLink="#E31111"
+        android:text="ღილაკი #1"
+        android:textColor="#FBC02D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
         tools:layout_editor_absoluteY="81dp" />
 
     <Button
@@ -25,11 +23,12 @@
         android:layout_width="236dp"
         android:layout_height="69dp"
         android:layout_weight="1"
-        android:text="ღილაკი #2"
-        android:textColor="@color/white"
         android:backgroundTint="@color/teal_700"
+        android:text="ღილაკი #2"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute,TextContrastCheck,TextContrastCheck"
         tools:layout_editor_absoluteY="167dp" />
 
     <Button
@@ -38,15 +37,17 @@
         android:layout_height="wrap_content"
         android:text="ღილაკი #5"
         tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="390dp" />
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/purple_700"
-        android:shadowColor="?android:attr/colorFocusedHighlight"
         android:text="ღილაკი #4"
+        android:textColor="#8C9EFF"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
         tools:layout_editor_absoluteX="45dp"
         tools:layout_editor_absoluteY="390dp" />
 
@@ -56,6 +57,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/teal_700"
         android:text="ღილაკი #6"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute,TextContrastCheck,TextContrastCheck"
         tools:layout_editor_absoluteX="259dp"
         tools:layout_editor_absoluteY="390dp" />
 
@@ -68,7 +71,8 @@
         android:backgroundTint="@color/teal_200"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="258dp" />
+        tools:layout_editor_absoluteY="258dp"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute" />
 
     <Button
         android:id="@+id/button5"
@@ -76,6 +80,8 @@
         android:layout_height="93dp"
         android:backgroundTint="@color/teal_700"
         android:text="ღილაკი #8"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute,TextContrastCheck"
         tools:layout_editor_absoluteX="180dp"
         tools:layout_editor_absoluteY="527dp" />
 
@@ -85,10 +91,10 @@
         android:layout_width="50dp"
         android:layout_height="93dp"
         android:backgroundTint="@color/purple_200"
-        android:drawableTint="@color/teal_700"
         android:text="ღილაკი #7"
         tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="527dp" />
+        tools:layout_editor_absoluteY="527dp"
+        tools:ignore="HardcodedText,MissingConstraints,MissingPrefix,UnusedAttribute" />
 
     <Button
         android:id="@+id/button7"
@@ -96,5 +102,7 @@
         android:layout_height="93dp"
         android:backgroundTint="@color/purple_500"
         android:text="ღილაკი #9"
+        android:textColor="#E1BEE7"
+        tools:ignore="HardcodedText,MissingConstraints,UnusedAttribute"
         tools:layout_editor_absoluteX="230dp"
         tools:layout_editor_absoluteY="527dp" />
